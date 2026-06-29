@@ -6,7 +6,7 @@ CREATE TABLE clientes (
     fecha_registro DATE -- Uso DATE porque solo necesitamos guardar la fecha
 );
 
--- Creación de la tabla productos
+-- Creación de la tabla productos 
 CREATE TABLE productos (
     id_producto INT, -- Uso INT porque el ID identifica a cada producto
     descripcion VARCHAR(255), -- Uso VARCHAR(255) para una descripción de longitud media
